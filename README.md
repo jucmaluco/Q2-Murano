@@ -43,7 +43,7 @@ When using git clone, users can pull and push their changes to the original repo
 
 ![image](https://github.com/user-attachments/assets/16dbafe8-9e07-4322-a156-eac2636a9495)
 
-<p> Now, we have a situation where the user created a new commit (5) from the past commit (2), instead of returning to the present commit (4). </p>
+<p> Now, there is a situation where the user created a new commit (5) from the past commit (2), instead of returning to the present commit (4). </p>
 <p>To visualize the mistake made, the user can run the following command: </p>
 <p> <i> git log --graph --oneline <br> </i> </p>
 
@@ -53,3 +53,14 @@ When using git clone, users can pull and push their changes to the original repo
 
 <i> git cherry-pick (commit5-hash) </i>
 
+<h2> D)Joining multiple commits and merging them into the main branch </h2>
+
+![image](https://github.com/user-attachments/assets/d0170ded-5d50-4cb5-8a4f-d030e1175e06)
+
+<p> For this part, there is a need to combine commits 5 through 8, as seen in the image above. Afterwards, the user need to merge that combination with the main branch (commit 4). </p>
+
+<p> To do this, first the user will need to change to the latest commit (commit 8) in "branch alternativa", using the <i>git switch</i> command. </p>
+
+<p> Next, the user needs to rebase interactively starting from commit 2 (commits 5, 6, 7, and 8). Inside the rebase editor, commits 6, 7, and 8 should be squashed (combined with the previous commit), while commit 5 should be picked (retained as it is). </p>
+
+<p> After this is done, all the commits from the alternative branch will have been combined into commit 5. Finally, the user needs to merge the squashed commit from the alternative branch into the main branch using the git merge command. </p>
