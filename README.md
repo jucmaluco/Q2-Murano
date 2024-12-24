@@ -6,9 +6,13 @@
 <h3> Git Clone </h3>
 <p> When an user utilizes this command, he will create a copy of a remote repository on his local machine. The command will download all the files, 
 branches and commite history of the repository. </p>
-<p> When using git clone, editing the cloned repository will not result in changing the original repository. Later, the users can pull and commit their codes to the original repositories. </p>
+<p> When using git clone the users can pull and commit their codes to the original repositories. </p>
 <P> Example code usage: </P>
-git clone "repository_url" 
+_ git clone "repository_url" _
 
-<h3> Git Bash </h3>
-<p> Using branches, users can create isolated workspaces for developing features. </p>
+<h3> Git Branch </h3>
+<p> Using branches, users can create isolated workspaces for developing features, fixing bugs, and experiment withoug affecting the original code. </p>
+<p> When someone creates an original git repository, they create a "main" branch. When creating additional branches, users are technically creating pointers to specific commits of the previous main branch, and therefore creating a new timeline of its own. </p>
+<p> If the user wishes to do so in the future, it is possible to merge branches with the **git merge** command. </p>
+<P> Example code usage> </P>
+_ git branch name-of-the-branch_
