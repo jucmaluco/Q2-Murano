@@ -5,9 +5,9 @@
 <h2> Example of commands you can run with git: </h2>
 
 <h3>1. Git Clone </h3>
-<p> When an user utilizes this command, he will create a copy of a remote repository on his local machine. The command will download all the files, 
-branches and commite history of the repository. </p>
-<p> When using git clone the users can pull and commit their codes to the original repositories. </p>
+<p> When a user utilizes this command, they will create a copy of a remote repository on their local machine. The command will download all the files, branches, and commit history of the repository.
+<p>
+When using git clone, users can pull and push their changes to the original repository. </p>
 <P> Example code usage: </P>
 <i> git clone "repository_url" </i>
 
