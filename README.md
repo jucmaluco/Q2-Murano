@@ -2,7 +2,7 @@
 
 <p> The objetive of this repository is to answer questions and analyse the usage of Git under various circumstances. </p>
 
-<h2> Examples of commands you can run with git: </h2>
+<h2> Example of commands you can run with git: </h2>
 
 <h3>1. Git Clone </h3>
 <p> When an user utilizes this command, he will create a copy of a remote repository on his local machine. The command will download all the files, 
