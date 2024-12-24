@@ -2,7 +2,7 @@
 
 <p> The objetive of this repository is to answer questions and analyse the usage of Git under various circumstances. </p>
 
-<h2> Example of commands you can run with git: </h2>
+<h2>A) Example of commands you can run with git: </h2>
 
 <h3>1. Git Clone </h3>
 <p> When a user utilizes this command, they will create a copy of a remote repository on their local machine. The command will download all the files, branches, and commit history of the repository.
@@ -25,3 +25,5 @@ When using git clone, users can pull and push their changes to the original repo
 <p> Also, commiting one's change is only part of the work that needs to be done. If the user wishes to upload the changes commited to a remote repository, the <strong> git push </strong> command shall be used.</p>
 <p> Example code usage> </p>
 <i> git commit -m "Comment about changes" </i>
+
+<h2>B)Solutions for having a shared library used and edited by two different projects.</h2>
